@@ -148,8 +148,8 @@ header .container {
 }
 
 .logo-bg {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   background-color: var(--primary-color);
   color: var(--light-color);
   border-radius: 50%;
@@ -407,7 +407,7 @@ nav ul li a.active {
 .stat-item {
   background-color: var(--light-color);
   border-radius: 10px;
-  padding: 30px 20px;
+  padding: 90px 20px;
   box-shadow: var(--box-shadow);
   text-align: center;
   transition: var(--transition);
@@ -421,7 +421,7 @@ nav ul li a.active {
 .stat-item .number {
   display: block;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--primary-color);
   margin-bottom: 10px;
 }
@@ -557,6 +557,74 @@ nav ul li a.active {
 .education-details p {
   color: var(--text-light);
   font-size: 14px;
+}
+
+/* Work Experience Section Styles */
+.experience {
+  padding: 100px 0;
+  background-color: var(--gray-color);
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.experience-card {
+  background-color: var(--light-color);
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+}
+
+.experience-card:hover {
+  transform: translateY(-10px);
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.experience-icon {
+  font-size: 36px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.experience-details .year {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-color);
+  background-color: rgba(108, 99, 255, 0.1);
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.experience-details h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 8px;
+}
+
+.experience-details h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-light);
+  margin-bottom: 15px;
+}
+
+.experience-details p {
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+/* Media Queries for Experience Section */
+@media screen and (max-width: 768px) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Media Queries for Education Section */

@@ -65,7 +65,7 @@
         </div>
         <div class="hero-image">
           <div class="image-bg"></div>
-          <img src="img.png" alt="Angga's profile photo" class="images" />
+          <img src="image1.png" alt="Angga's profile photo" class="images" />
         </div>
       </div>
     </section>
@@ -408,13 +408,12 @@
       </div>
     </footer>
 
-    <!-- Hidden link for CV download -->
     <div class="hidden-download">
       <a id="cv-download-link" href="CV-MuhamadAnggaPridaSaputra.pdf" download="CV-MuhamadAnggaPridaSaputra.pdf" style="display: none;">Download CV</a>
     </div>
 
     <script>
-      // Mobile menu toggle
+    
       document
         .querySelector(".menu-toggle")
         .addEventListener("click", function () {
@@ -422,8 +421,7 @@
           this.classList.toggle("active");
         });
 
-      // Smooth scrolling for anchor links
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+         document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", function (e) {
           e.preventDefault();
           document.querySelector(this.getAttribute("href")).scrollIntoView({
@@ -432,7 +430,6 @@
         });
       });
 
-      // Active navigation based on scroll position
       window.addEventListener("scroll", function () {
         const sections = document.querySelectorAll("section");
         const navLinks = document.querySelectorAll("nav ul li a");
@@ -456,8 +453,7 @@
         });
       });
 
-      // CV Download functionality
-      document.getElementById('download-cv').addEventListener('click', function(e) {
+       document.getElementById('download-cv').addEventListener('click', function(e) {
         e.preventDefault();
         document.getElementById('cv-download-link').click();
       });

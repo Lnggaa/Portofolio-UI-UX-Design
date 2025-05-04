@@ -1,4 +1,3 @@
-/* Global Styles */
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f50057;
@@ -124,7 +123,6 @@ img {
   background-color: var(--primary-color);
 }
 
-/* Header Styles */
 header {
   position: fixed;
   top: 0;
@@ -307,7 +305,6 @@ nav ul li a.active {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Hero Section Styles */
 .hero {
   padding: 140px 0 80px;
   background-color: var(--light-color);
@@ -380,7 +377,6 @@ nav ul li a.active {
   box-shadow: var(--box-shadow);
 }
 
-/* About Section Styles */
 .about {
   padding: 100px 0;
   background-color: var(--gray-color);
@@ -494,7 +490,6 @@ nav ul li a.active {
   align-items: center;
 }
 
-/* Education Section Styles */
 .education {
   padding: 100px 0;
   background-color: var(--light-color);
@@ -559,7 +554,6 @@ nav ul li a.active {
   font-size: 14px;
 }
 
-/* Work Experience Section Styles */
 .experience {
   padding: 100px 0;
   background-color: var(--gray-color);
@@ -620,21 +614,18 @@ nav ul li a.active {
   font-size: 14px;
 }
 
-/* Media Queries for Experience Section */
 @media screen and (max-width: 768px) {
   .experience-grid {
     grid-template-columns: 1fr;
   }
 }
 
-/* Media Queries for Education Section */
 @media screen and (max-width: 768px) {
   .education-grid {
     grid-template-columns: 1fr;
   }
 }
 
-/* Services Section Styles */
 .services {
   padding: 100px 0;
   background-color: var(--gray-color);
@@ -686,7 +677,6 @@ nav ul li a.active {
   font-size: 14px;
 }
 
-/* Portfolio Section Styles */
 .portfolio {
   padding: 100px 0;
   background-color: var(--light-color);
@@ -823,7 +813,6 @@ nav ul li a.active {
   color: var(--text-light);
 }
 
-/* Contact Section Styles */
 .contact {
   padding: 100px 0;
   background-color: var(--gray-color);
@@ -956,7 +945,6 @@ nav ul li a.active {
   transform: translateY(-5px);
 }
 
-/* Footer Styles */
 footer {
   background-color: var(--dark-color);
   padding: 40px 0;
@@ -1000,7 +988,6 @@ footer .social-icons .behance-icon:hover {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 1024px) {
   .hero .container,
   .about .container {
